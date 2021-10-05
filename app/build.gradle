@@ -48,6 +48,18 @@ android {
 
 dependencies {
 
+    // Android Frame Pacing library
+    implementation "androidx.games:games-frame-pacing:1.9.0"
+    // Android Performance Tuner
+    implementation "androidx.games:games-performance-tuner:1.5.0-beta01"
+    // Games Activity library
+    implementation "androidx.games:games-activity:1.1.0-alpha01"
+    // Games Controller Library
+    implementation "androidx.games:games-controller:1.0.0"
+    // Games Text Input Library
+    implementation "androidx.games:games-text-input:1.0.0"
+
+
     implementation 'androidx.core:core-ktx:1.6.0'
     implementation 'androidx.appcompat:appcompat:1.3.1'
     implementation 'com.google.android.material:material:1.4.0'

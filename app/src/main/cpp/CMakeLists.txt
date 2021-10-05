@@ -43,6 +43,9 @@ find_library( # Sets the name of the path variable.
 target_link_libraries( # Specifies the target library.
         android_xr
 
+        games-frame-pacing::swappy_static
+        games-performance-tuner::tuningfork_static
+
         # Links the target library to the log library
         # included in the NDK.
         ${log-lib})

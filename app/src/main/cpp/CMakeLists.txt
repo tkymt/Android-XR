@@ -46,3 +46,7 @@ target_link_libraries( # Specifies the target library.
         # Links the target library to the log library
         # included in the NDK.
         ${log-lib})
+
+# Android Game SDKからパッケージを追加
+find_package(games-frame-pacing REQUIRED CONFIG)
+find_package(games-performance-tuner REQUIRED CONFIG)

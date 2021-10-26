@@ -4,8 +4,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
 import com.example.android_xr.databinding.ActivityMainBinding
+import com.google.androidgamesdk.GameActivity
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : GameActivity() {
 
     private lateinit var binding: ActivityMainBinding
 
